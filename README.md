@@ -1,2 +1,2 @@
 # DayMode
-App utilizado para mapear rotinas e estruturar seus dia e identificar hábitos
+App utilizado para mapear rotinas, estruturar seu dia e mapear hábitos
