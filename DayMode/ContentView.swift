@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  DayMode
-//
-//  Created by Joao Paulo Lima Silva on 20/01/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
