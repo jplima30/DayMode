@@ -19,4 +19,3 @@ Este projeto segue uma arquitetura modular baseada em **MVVM** e **Feature-First
 - **Charts**: Swift Charts
 
 ---
-*Desenvolvido como projeto de mentoria em Arquitetura iOS.*
