@@ -11,7 +11,7 @@ A jornada do usuário começa com uma imersão no conceito de "Consciência 24h"
 
 | Splash & Info | Onboarding | Auth Flow | Apple Login |
 |:---:|:---:|:---:|:---:|
-| <img src="Screenshots/19.png" width="180"> | <img src="Screenshots/1.png" width="180"> | <img src="Screenshots/11.png" width="180"> | <img src="Screenshots/10.png" width="180"> |
+| <img src="screenshots/19.png" width="180"> | <img src="screenshots/1.png" width="180"> | <img src="screenshots/11.png" width="180"> | <img src="screenshots/10.png" width="180"> |
 | **Identidade Visual** | **Gestão de Tempo** | **Login Moderno** | **Acesso Seguro** |
 
 ### 🗓️ Gestão de Rotina e Eventos Sociais
@@ -19,7 +19,7 @@ O coração do app, onde a organização de tarefas complexas encontra a intera�
 
 | Dashboard | Categorias | Chat de Grupo | Vaquinha & Pix |
 |:---:|:---:|:---:|:---:|
-| <img src="Screenshots/4.png" width="180"> | <img src="Screenshots/3.png" width="180"> | <img src="Screenshots/7.png" width="180"> | <img src="Screenshots/8.png" width="180"> |
+| <img src="screenshots/4.png" width="180"> | <img src="screenshots/3.png" width="180"> | <img src="screenshots/7.png" width="180"> | <img src="screenshots/8.png" width="180"> |
 | **Agenda Dinâmica** | **Criação via IA** | **Colaboração** | **Gestão de Custos** |
 
 ### 📊 Estatísticas & Performance
@@ -27,7 +27,7 @@ Transformação de dados brutos em insights acionáveis. Análise detalhada de f
 
 | Resumo Diário | Desempenho Semanal | Consistência Mensal |
 |:---:|:---:|:---:|
-| <img src="Screenshots/17.png" width="180"> | <img src="Screenshots/14.png" width="180"> | <img src="Screenshots/16.png" width="180"> |
+| <img src="screenshots/17.png" width="180"> | <img src="screenshots/14.png" width="180"> | <img src="screenshots/16.png" width="180"> |
 | **Análise de Foco** | **Performance** | **Consistência** |
 
 ---
