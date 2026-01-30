@@ -48,9 +48,3 @@ Este projeto segue uma arquitetura modular robusta para garantir escalabilidade 
 * **Integrações:** OAuth 2.0 (Google, Apple, Instagram, TikTok).
 
 ---
-
-## 👨‍💻 Autor
-**João Paulo Silva**
-* Desenvolvedor iOS focado em SwiftUI e arquiteturas escaláveis.
-* Natural de Belém/PA.
-* [LinkedIn](https://www.linkedin.com/in/jpdeveloper/) | [GitHub](https://github.com/jplima30)
