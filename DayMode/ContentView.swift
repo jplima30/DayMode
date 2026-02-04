@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 //
 //  ContentView.swift
 //  DayMode
@@ -7,18 +6,59 @@
 //  Created by Joao Paulo Lima Silva on 29/01/26.
 //
 
->>>>>>> da385e9 (Initial Commit)
 import SwiftUI
 
 struct ContentView: View {
+    // Nossas variáveis de estado (A memória da tela)
+    @State private var email: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            // 1. Fundo
+            Color("BackgroundApp")
+                .ignoresSafeArea()
+            
+            VStack(spacing: 20) { 
+                // 2. Título
+                Text("DayMode")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundStyle(Color("BrandPrimary"))
+                
+                // 3. Campo de E-mail
+                TextField("email", text: $email)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
+                    .foregroundStyle(.white)
+                
+                // 4. Campo de Senha
+                SecureField("password", text: $password)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
+                    .foregroundStyle(.white)
+                
+                // 5. Botão
+                Button(action: {
+                  
+                    print("O email digitado foi: \(email)")
+                    print("A senha digitada foi: \(password)")
+                }) {
+                    Text("ENTRAR NO SISTEMA")
+                        .font(.headline)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color("BrandPrimary"))
+                        .foregroundStyle(Color("BackgroundApp"))
+                        .cornerRadius(10)
+                }
+                .padding(.top, 10)
+                
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
