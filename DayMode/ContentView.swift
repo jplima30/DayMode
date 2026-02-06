@@ -1,4 +1,3 @@
-
 //
 //  ContentView.swift
 //  DayMode
@@ -31,6 +30,7 @@ struct ContentView: View {
                     .font(.caption)
                     .kerning(5)
                     .foregroundStyle(.white)
+                
                 // 3. Campo de E-mail
                 TextField("email", text: $email)
                     .padding()
@@ -45,9 +45,8 @@ struct ContentView: View {
                     .clipShape(Capsule())
                     .foregroundStyle(.white)
                 
-                // 5. Botão
+                // 5. Botão Principal
                 Button(action: {
-                  
                     print("O email digitado foi: \(email)")
                     print("A senha digitada foi: \(password)")
                 }) {
@@ -61,6 +60,16 @@ struct ContentView: View {
                         .shadow(color: Color("BrandPrimary"), radius: 10)
                 }
                 .padding(.top, 10)
+                
+                // 6. Botão Esqueceu Senha (NOVO)
+                Button(action: {
+                    print("Navegar para recuperar senha")
+                }) {
+                    Text("Esqueceu sua senha?")
+                        .font(.caption) // Texto pequeno
+                        .foregroundStyle(Color.gray) // Cor discreta
+                }
+                .padding(.top, 5)
                 
             }
             .padding()
