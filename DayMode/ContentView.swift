@@ -25,27 +25,27 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .foregroundStyle(Color("BrandPrimary"))
                     .shadow(color: Color("BrandPrimary"), radius: 10)
-                // 3.Subtítulo
+                // 3. Subtítulo
                 Text("FLOW")
                     .font(.caption)
                     .kerning(5)
                     .foregroundStyle(.white)
                 
-                // 3. Campo de E-mail
+                // 4. Campo de E-mail
                 TextField("email", text: $email)
                     .padding()
                     .background(Color.gray.opacity(0.2))
                     .clipShape(Capsule())
                     .foregroundStyle(.white)
                 
-                // 4. Campo de Senha
+                // 5. Campo de Senha
                 SecureField("password", text: $password)
                     .padding()
                     .background(Color.gray.opacity(0.2))
                     .clipShape(Capsule())
                     .foregroundStyle(.white)
                 
-                // 5. Botão Principal
+                // 6. Botão Principal
                 Button(action: {
                     print("O email digitado foi: \(email)")
                     print("A senha digitada foi: \(password)")
@@ -61,15 +61,31 @@ struct ContentView: View {
                 }
                 .padding(.top, 10)
                 
-                // 6. Botão Esqueceu Senha (NOVO)
+                // 7. Botão Esqueceu Senha
                 Button(action: {
                     print("Navegar para recuperar senha")
                 }) {
                     Text("Esqueceu sua senha?")
-                        .font(.caption) // Texto pequeno
-                        .foregroundStyle(Color.gray) // Cor discreta
+                        .font(.caption)
+                        .foregroundStyle(Color.gray)
                 }
-                .padding(.top, 5)
+                
+                // 8. Divisor (NOVO - Commit de hoje)
+                HStack {
+                    Rectangle()
+                        .frame(height: 1)
+                        .foregroundStyle(.gray.opacity(0.3))
+                    
+                    Text("OU ENTRE COM")
+                        .font(.caption2)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.gray)
+                    
+                    Rectangle()
+                        .frame(height: 1)
+                        .foregroundStyle(.gray.opacity(0.3))
+                }
+                .padding(.vertical, 20) // Espaçamento extra
                 
             }
             .padding()
